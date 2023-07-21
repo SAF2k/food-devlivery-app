@@ -1,12 +1,14 @@
-import Link from "next/link"
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div>
-        <Link href="/" className="font-bold text-xl">Pizzo</Link>
-        <p>&copy; ALL RIGHTS RESERVED.</p>
+    <div className="flex h-12 items-center justify-between p-4 text-red-500 md:h-24 lg:px-20 xl:px-40">
+      <Link href="/" className="text-xl font-bold">
+        Pizzo
+      </Link>
+      <p>&copy; ALL RIGHTS RESERVED.</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -5,7 +5,7 @@ import CartIcon from "@/components/CartIcon";
 import Menu from "@/components/Menu";
 
 const Navbar = () => {
-  const user = true;
+  const user = false;
   return (
     <div className="flex h-12 items-center justify-between border-b-2 border-b-red-500 p-4 uppercase text-red-500 md:h-24 lg:px-20 xl:px-40">
       {/* LIFT LINKS  */}
