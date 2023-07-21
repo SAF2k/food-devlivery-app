@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import CartIcon from "@/components/CartIcon";
+import Menu from "@/components/Menu";
 
 const Navbar = () => {
   const user = false;
@@ -18,7 +19,9 @@ const Navbar = () => {
         <Link href="/">Pizzo</Link>
       </div>
       {/* Mobile Menu  */}
-      <div className="md:hidden">{/* <Menu /> */}</div>
+      <div className="md:hidden">
+        <Menu />
+      </div>
       {/* Right Links  */}
       <div className="hidden flex-1 items-center justify-end gap-4 md:flex">
         <div className="top-3 flex cursor-pointer items-center gap-2 rounded-md bg-orange-300 px-1 md:absolute lg:static">
