@@ -8,7 +8,7 @@ const MenuPage = () => {
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="h-1/3 w-full bg-cover p-8 md:h-1/2"
+          className="h-1/3 w-full bg-cover p-8 md:h-1/2 mx-3"
           style={{ backgroundImage: `url(${category.img})` }}
         >
           <div className={`text-${category.color} w-1/2`}>
